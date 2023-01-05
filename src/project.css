@@ -2,7 +2,7 @@ body, html{
 	background-color: #E1DFDD;
 	padding: 0;
 	margin: 0;
-	cursor: url(/cursors/iconan.svg)27 27, auto;
+	cursor: url('/cursors/iconan.png')27 27, auto;
 }
 #container {
 	position: relative;
@@ -41,12 +41,12 @@ footer{
 .arrowdx{
 	position: fixed;
 	margin-left: 50px;
-	cursor: url(/cursors/iconam.svg)27 27, auto;
+	cursor: url('/cursors/iconav.png')27 27, auto;
 }
 .arrowsx{
 	position: fixed;
 	margin-left: -50px;
-	cursor: url(/cursors/iconam.svg)27 27, auto;
+	cursor: url('/cursors/iconav.png')27 27, auto;
 }
 .pagina{
 	position: fixed;
@@ -55,6 +55,16 @@ footer{
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
+}
+p.year{
+	font-family: Albert Sans;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 0px;
+	display: flex;
+	align-items: flex-end;
+	color: #000000; 
 }
 a.nome{
 	position: absolute;
@@ -69,7 +79,7 @@ a.nome{
 	align-items: flex-end;
 	color: #000000;
 	text-decoration-line: none;
-	cursor: url(/cursors/iconam.svg)27 27, auto;
+	cursor: url('/cursors/iconav.png')27 27, auto;
 }
 a.about{
 	position: absolute;
@@ -86,7 +96,7 @@ a.about{
 	color: #000000;
 	text-decoration-line: none;
 	text-align: right;
-	cursor: url(/cursors/iconam.svg)27 27, auto;
+	cursor: url('/cursors/iconav.png')27 27, auto;
 }
 a.email{
 	position: absolute;
@@ -101,9 +111,12 @@ a.email{
 	align-items: flex-end;
 	text-align: right;
 	color: #000000;
-	text-decoration-line: underline;
+	text-decoration-line: none;
 	text-align: right;
-	cursor: url(/cursors/iconam.svg)27 27, auto;
+	cursor: url('/cursors/iconav.png')27 27, auto;
+}
+a.email:hover{
+	text-decoration-line: underline;
 }
 a.insta{
 	position: absolute;
@@ -118,9 +131,12 @@ a.insta{
 	align-items: flex-end;
 	text-align: right;
 	color: #000000;
-	text-decoration-line: underline;
+	text-decoration-line: none;
 	text-align: right;
-	cursor: url(/cursors/iconam.svg)27 27, auto;
+	cursor: url('/cursors/iconav.png')27 27, auto;
+}
+a.insta:hover{
+	text-decoration-line: underline;
 }
 p1{
 	position: absolute;
