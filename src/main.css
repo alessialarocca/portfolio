@@ -2,7 +2,7 @@ body, html{
 	background-color: #E1DFDD;
 	padding: 0;
 	margin: 0;
-	cursor: url('/cursors/iconan.png')27 27, auto; /*icona nera*/
+	cursor: url('/src/img/iconan.png')27 27, auto; /*icona nera*/
 }
 #container {
 	position: relative;
@@ -42,7 +42,7 @@ a.nome{
 	align-items: flex-end;
 	color: #000000;
 	text-decoration-line: none;
-	cursor: url('/cursors/iconav.png')27 27, auto; /*icona verde*/
+	cursor: url('/src/img/iconav.png')27 27, auto; /*icona verde*/
 	
 }
 a.about{
@@ -60,7 +60,7 @@ a.about{
 	color: #000000;
 	text-decoration-line: none;
 	text-align: right;
-	cursor: url('/cursors/iconav.png')27 27, auto;
+	cursor: url('/src/img/iconav.png')27 27, auto;
 }
 a.email{
 	position: absolute;
@@ -77,7 +77,7 @@ a.email{
 	color: #000000;
 	text-decoration-line: none;
 	text-align: right;
-	cursor: url('/cursors/iconav.png')27 27, auto;
+	cursor: url('/src/img/iconav.png')27 27, auto;
 }
 a.email:hover{
 	text-decoration-line: underline;
@@ -97,7 +97,7 @@ a.insta{
 	color: #000000;
 	text-decoration-line: none;
 	text-align: right;
-	cursor: url('/cursors/iconav.png')27 27, auto;
+	cursor: url('/src/img/iconav.png')27 27, auto;
 }
 a.insta:hover{
 	text-decoration-line: underline;
@@ -132,7 +132,7 @@ p1{
 	object-fit: cover;
 	width: 100%;
 	padding-bottom: 20px;
-	cursor: url('/cursors/iconav.png')27 27, auto;
+	cursor: url('/src/img/iconav.png')27 27, auto;
 } 
 .imgsx {
 	position: relative;
@@ -140,7 +140,7 @@ p1{
 	grid-column-start: 1;
 	grid-column-end: 2;
 	margin-bottom: 100px;
-	cursor: url('/cursors/iconav.png')27 27, auto;
+	cursor: url('/src/img/iconav.png')27 27, auto;
 }
 .imgsx>img:hover {
 	position: relative;
@@ -152,7 +152,7 @@ p1{
 	object-fit: cover;
 	width: 100%;
 	padding-bottom: 20px;
-	cursor: url('/cursors/iconav.png')27 27, auto;
+	cursor: url('/src/img/iconav.png')27 27, auto;
 }
 
 /* img dx id + class*/
@@ -173,7 +173,7 @@ p1{
 	object-fit: cover;
 	width: 100%;
 	padding-bottom: 20px;
-	cursor: url('/cursors/iconav.png')27 27, auto;
+	cursor: url('/src/img/iconav.png')27 27, auto;
 } 
 .imgdx {
 	position: relative;
@@ -181,7 +181,7 @@ p1{
 	grid-column-start: 2;
 	grid-column-end: 3;
 	margin-bottom: 100px;
-	cursor: url('/cursors/iconav.png')27 27, auto;
+	cursor: url('/src/img/iconav.png')27 27, auto;
 }
 .imgdx>img:hover {
 	position: relative;
@@ -193,7 +193,7 @@ p1{
 	object-fit: cover;
 	width: 100%;
 	padding-bottom: 20px;
-	cursor: url('/cursors/iconav.png')27 27, auto;
+	cursor: url('/src/img/iconav.png')27 27, auto;
 }
 
 
